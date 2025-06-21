@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 ### 
-PUT http://localhost:3333/users/c30ebe86-01e9-48d1-abfb-efebfaee214d
+PUT http://localhost:3333/users/149f3851-7403-4f74-8b88-99a4bd7f31ed
 Content-Type: application/json
 
 {
@@ -19,4 +19,4 @@ Content-Type: application/json
 }
 
 ### 
-DELETE  http://localhost:3333/users/c30ebe86-01e9-48d1-abfb-efebfaee214d
+DELETE  http://localhost:3333/users/149f3851-7403-4f74-8b88-99a4bd7f31ed
