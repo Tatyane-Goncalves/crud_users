@@ -10,6 +10,34 @@ API RESTful simples de usuários com rotas **GET**, **POST**, **PUT** e **DELETE
 - Atualiza usuários com base no id
 - Deleta usuários com base no id
 
+## 📂 Estrutura dos arquivos
+```bash
+/taskmaster
+├── dist
+│   ├── router
+│   │   ├── createUser.js
+│   │   ├── deleteUser.js
+│   │   ├── listUser.js
+│   │   └── updateUser.js
+│   ├── server.js
+│   ├── users.js
+├── src
+│   ├── router
+│   │   ├── createUser.js
+│   │   ├── deleteUser.js
+│   │   ├── listUser.js
+│   │   └── updateUser.js
+│   ├── server.js
+│   └── users.js
+│   
+├── .gitignore
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── README.md
+└── tsconfig.json
+```
+
 
 ## ⚙️ Pré-requisitos
 - Node JS
