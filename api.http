@@ -1,0 +1,22 @@
+GET http://localhost:3333/users
+
+### 
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Julia Pacheco",
+  "email": "juliapacheco@gmail.com" 
+}
+
+### 
+PUT http://localhost:3333/users/c30ebe86-01e9-48d1-abfb-efebfaee214d
+Content-Type: application/json
+
+{
+  "name": "João Machado",
+  "email": "joao.machado@gmail.com" 
+}
+
+### 
+DELETE  http://localhost:3333/users/c30ebe86-01e9-48d1-abfb-efebfaee214d
