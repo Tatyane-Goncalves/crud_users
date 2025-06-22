@@ -20,7 +20,8 @@ API RESTful simples de usuários com rotas **GET**, **POST**, **PUT** e **DELETE
 │   │   ├── listUser.js
 │   │   └── updateUser.js
 │   ├── server.js
-│   ├── users.js
+│   └── users.js
+│   
 ├── src
 │   ├── router
 │   │   ├── createUser.js
