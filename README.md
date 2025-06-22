@@ -12,7 +12,7 @@ API RESTful simples de usuários com rotas **GET**, **POST**, **PUT** e **DELETE
 
 ## 📂 Estrutura dos arquivos
 ```bash
-/taskmaster
+crud_users
 ├── dist
 │   ├── router
 │   │   ├── createUser.js
