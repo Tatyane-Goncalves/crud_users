@@ -9,6 +9,7 @@ import { listCategoriesRouter } from "./router/listCategoriesRouter"
 import { createCategory } from "./router/createCategory"
 import { listTaskRouter } from "./router/listTaskRouter"
 import { createTaskRouter } from "./router/createTaskRouter"
+import { updateTaskRouter } from "./router/updateTaskRouter"
 
 const api = express()
 api.use(express.json())
@@ -49,6 +50,7 @@ api.use(createCategory)
 // CRUD Task
 api.use(listTaskRouter)
 api.use(createTaskRouter)
+api.use(updateTaskRouter)
 
 
 api.listen(3333, () => {
